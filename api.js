@@ -10,7 +10,7 @@ cloudinary.config({
 
 
 export default createLambda(
-    post(({ req, requerys, ok, error }) => {
+    post(({ req, ok, error }) => {
         var form = new multiparty.Form();
         form.parse(req, (err, fields, files)=>{
              const path = files.upload[0].path
