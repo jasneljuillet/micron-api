@@ -3,9 +3,9 @@ import cloudinary from 'cloudinary';
 import multiparty from 'multiparty';
 
 cloudinary.config({
-    cloud_name: 'dtoxfmz86',
-    api_key: 234177866619418,
-    api_secret: 'e_Y2MlfDz62e8vZq0Yjmhf5qr1U'
+    cloud_name: '',
+    api_key: ,
+    api_secret: ''
 });
 
 export default createLambda(
